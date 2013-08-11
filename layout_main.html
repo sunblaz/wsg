@@ -17,15 +17,27 @@
     <link rel="stylesheet" href="css/normalize---.css">
     <link rel="stylesheet" href="css/main---.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/base_layout.css">
+    <link rel="stylesheet" href="css/main_layout.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 
   </head>
-  <body>
+  <body id="main">
+
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
+
+
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="css/ie6.css">
+    <![endif]-->
+
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="css/ie7.css">
+    <![endif]-->
+
 
     <div id="wrapper">
 
@@ -57,6 +69,7 @@
           <li><a href="#"><img src="images/common/topmenu05.gif" alt="묻고 답하기" width="109" height="43" /></a></li>
           <li><a href="#"><img src="images/common/topmenu06.gif" alt="자료실" width="93" height="43" /></a></li>
         </ul>
+
       </div>
 
 
@@ -68,6 +81,7 @@
       <div id="contents">
 
         <div class="section">
+
           <div class="login">
             <h3><img src="images/main/h3_login.gif" alt="로그인"/></h3>
             <form action="/action" method="post">
@@ -103,28 +117,33 @@
             <h3><img src="images/main/h3_standards.gif" alt="웹 표준이란?"/></h3>
             <dl>
               <dt class="subject"><a href="#">웹 표준이란?</a></dt>
+              <dt class="img"><img src="images/main/img_standards.gif" alt="W3C로고" width="61" height="68"/></dt>
               <dd class="brief"><a href="#">W3C 단체에서 규정한 웹 기술 사양에 대한 규칙을 말하며 표준 규격..</a></dd>
             </dl>
           </div>
+
         </div>
 
         <div class="sectionInfo">
+
           <div class="search">
-            <h3><img src="images/common/title_search.gif" alt="자료검색"/></h3>
+            <h3>자료검색</h3>
             <form action="/action">
               <fieldset>
                 <legend>검색어 입력 폼</legend>
+                <label for="search"><img src="images/common/title_search.gif" alt="자료검색"/></label>
                 <input type="text" id="search" size="20" title="검색어 입력"/>
-                <button><img src="images/common/btn_search.gif" alt="검색"/></button>
+                <input type="image" class="btnSearch" src="images/common/btn_search.gif" alt="검색" />
               </fieldset>
             </form>
           </div>
 
           <div id="boardBox">
+
             <h3 class="tab01"><a href="#noticeList"><img src="images/main/tab_notice_ov.gif" alt="공지사항"/></a></h3>
             <div id="noticeList">
               <ul>
-                <li><a href="#">HTML 모든 것읋 알려주마 샘플 활용법</a> <span class="date">2009.10.15</span></li>
+                <li><a href="#">HTML 모든 것읋 알려주마 샘플 활용법 점프 점프 점프 점프 점프 점프~</a> <span class="date">2009.10.15</span></li>
                 <li><a href="#">W3C 사이트 리뉴얼 소식 및 공지사항</a> <span class="date">2009.10.15</span></li>
                 <li><a href="#">KWCF 2.0 소식</a> <span class="date">2009.10.15</span></li>
                 <li><a href="#">사이트 점검으로 인한 사이트 이용안내 입니다.</a> <span class="date">2009.10.15</span></li>
@@ -132,6 +151,7 @@
               </ul>
               <p class="more"><a href="#"><img src="images/main/icon_more.gif" alt="더보기"/></a></p>
             </div>
+
             <h3 class="tab02"><a href="#pdsList"><img src="images/main/tab_pds.gif" alt="자료실"/></a></h3>
             <div id="pdsList">
               <ul>
@@ -144,18 +164,22 @@
               <p class="more"><a href="#"><img src="images/main/icon_more.gif" alt="더보기"/></a></p>
             </div>
 
-            <div class="newsList">
-              <h3><img src="images/main/h3_news.gif" alt="새소식"/></h3>
-              <div class="newsWrap">
-                <h4><a href="#">W3C 사이트가 리뉴얼되었습니다.</a></h4>
-                <p class="date">2009.10.5</p>
-                <p class="brief"><a href="#">디자인 및 다양한 view 환경을 고려하여 구성되어 있으며, 기존보다 최신 정보 및 개발자를 위한 기술 가이드도 찾기 쉽..</a></p>
-              </div>
-              <p class="imgWrap"> <span class="img"><img src="images/main/img_112_66.gif" alt="" width="112" height="66"/></span><span class="imgTitle">W3C 리뉴얼</span></p>
-              <p class="more"><a href=""><img src="images/main/icon_more.gif" alt="더보기"/></a></p>
-            </div>
           </div>
+
+          <div class="newsList">
+            <h3><img src="images/main/h3_news.gif" alt="새소식"/></h3>
+            <div class="newsWrap">
+              <h4><a href="#">W3C 사이트가 리뉴얼되었습니다.</a></h4>
+              <p class="date">2009.10.5</p>
+              <p class="brief"><a href="#">디자인 및 다양한 view 환경을 고려하여 구성되어 있으며, 기존보다 최신 정보 및 개발자를 위한 기술 가이드도 찾기 쉽..</a></p>
+            </div>
+            <p class="imgWrap"> <span class="img"><img src="images/main/img_112_66.gif" alt="" width="112" height="66"/></span><span class="imgTitle">W3C 리뉴얼</span></p>
+            <p class="more"><a href=""><img src="images/main/icon_more.gif" alt="더보기"/></a></p>
+          </div>
+
         </div>
+
+
         <div class="sectionEvent">
 
           <div class="event">
@@ -202,6 +226,7 @@
       </div>
 
 
+
       <div id="slogan">
         <h2>슬로건</h2>
         <p class="sloganImg"><img src="images/common/icon_coffee.gif" alt="커피잔"/></p>
@@ -211,12 +236,13 @@
         </div>
       </div>
 
+
       <div id="footer">
         <div class="footerInner">
           <p class="footerLogo"><img src="images/common/logo_copyright.gif" alt="WebCafe"/></p>
           <h2>사이트 이용안내</h2>
           <ul class="guideMenu">
-            <li><a href="#">회사소개</a></li>
+            <li class="first-item"><a href="#">회사소개</a></li>
             <li><a href="#">개인정보보호정책</a></li>
             <li><a href="#">이메일주소무단수집거부</a></li>
             <li><a href="#">Contact Us</a></li>

@@ -1,344 +1,401 @@
-
-body {
-  color:#000;
-  font-size: 75%;
-  line-height: 1.2;
-  font-family: "돋움", Dotum, "굴림", Gulim, Verdana, AppleGothic, sans-serif;
-  background: url(../images/common/bg_body.gif) repeat-x 0 0;
+#pdsList {
+  display: none;
 }
 
-#wrapper {
-  background:url(../images/common/wrap_bg.jpg) no-repeat top center;
-}
 
-a:link { color:#4f4f4f; text-decoration: none; }
-a:visited { color:#8a2e91; text-decoration: none; }
-a:hover { color:#000; text-decoration: underline; }
-a:focus { color:#000; text-decoration: underline; }
-a:active { color: #000; text-decoration: none; }
-
-div- { border:1px dashed #f00; }
-
-#header {
-  position: relative;
-  margin: 0 auto;
-  width: 940px;
-  height: 105px;
-  background: url(../images/common/bg_menubox.png) no-repeat 0 0;
-}
-
-#header h2 {
-  position: absolute;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  font-size: 0;
-  line-height: 0;
-}
-
-.logo {
-  position: absolute;
-  top: 35px;
-  left: 45px;
-}
-
-#infoMenu {
-  margin-right: 77px;
-  padding:8px 0 7px 0;
-  text-align: right;
-  font-size: 0.9em;
-}
-
-#infoMenu li {
-  display: inline;
-  padding: 0 3px 0 8px;
-}
-
-#infoMenu li a {
-  color: #676767;
-}
-
-#infoMenu li a:hover,
-#infoMenu li a:focus {
-  color: #000;
-}
-
-#infoMenu .first-item {
-  background: none;
-}
-
-#navigation {
-  width: 842px;
-  height: 43px;
-  margin-left: 22px;
-  background: url(../images/common/sitemenu_bg.gif) no-repeat 0 0;
-
-}
-
-#navigation li {
+.section {
   float: left;
-  display: inline; /* IE6 only */
-}
-
-#navigation li.first {
-  margin-left: 217px;
-}
-
-#navigation li ul {
-  position: absolute;
-  top: 77px;
-}
-
-#navigation li ul a {
-  padding: 7px 10px;
-  color: #626262;
-  background: url(../images/common/bullet_list.gif) no-repeat 4px 11px;
-}
-
-#navigation li ul a:hover,
-#navigation li ul a:focus {
-  color: #000;
-  text-decoration: none;
-  background: url(../images/common/bullet_list_ov.gif) no-repeat 1px 10px;
-}
-
-
-#contents {
-  width: 940px;
-  margin: 0 auto;
-  min-height: 400px;
-  padding-top: 30px;
-  background:url(../images/common/contents_box.png) no-repeat 0 0;
-}
-
-#slogan {
-  clear: both;
-  position: relative;
-  width: 940px;
-  margin:20px auto 0;
-}
-
-#slogan h2 {
-  position: absolute;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  font-size: 0;
-  line-height: 0;
-}
-
-.sloganImg {
-  position:absolute;
-  bottom:0;
-  margin-bottom: -24px;
-  left: 38px;
-}
-
-.sloganCon {
-  margin-left: 180px;
-  margin-right: 70px;
-  padding: 38px 0 9px 15px;
-  line-height: 1.4;
-  color: #a09784;
-  font-weight: bold;
-  background: url(../images/main/icon_quotation.gif) no-repeat 0 38px;
-}
-
-.sloganCon .name {
   display: inline;
-  font-weight: normal;
+  width: 239px;
+  margin: 0 25px 0 20px;
 }
 
-.subMenu {
-  width: 177px;
+.sectionInfo {
+  float: left;
+  width: 375px;
+  margin-right: 24px;
 }
 
-.subMenu h2 {
-  padding-bottom: 10px;
-  border-bottom: 2px solid #FF6738;
+.sectionEvent {
+  float: left;
+  width: 185px;
 }
 
-.subMenu h2 img {
-  padding: 1px 0 0 6px;
+/* 기존 너비 940px을 896px으로 재정의 */
+#header, #contents, #slogan, .footerInner {
+  width: 886px;
 }
 
-.subMenu ul li a {
-  display: block;
-  padding: 6px 0 6px 20px;
-  color: #4c4c4c;
-  border-bottom: 1px solid #ff6738;
-  background: url(../images/common/icon_submenu.gif) no-repeat 7px 12px;
+/* 74px를 25px로 재정의 */
+#infoMenu {
+  margin-right: 25px;
 }
 
-.subMenu ul li a:hover,
-.subMenu ul li a:focus,
-.subMenu ul li.select a {
-  color: #ff3c00;
-  text-decoration: none;
-  background: url(../images/common/icon_submenu_ov.gif) no-repeat 7px 12px;
+#visual {
+  margin: 0 auto;
+  width: 824px;
+  height: 107px;
 }
 
-.subMenu ul li.select a {
-  font-weight: bold;
+.login {
+  position: relative;
+  width: 239px;
+  margin-bottom: 10px;
+  background: url(../images/main/login_box.gif) no-repeat;
 }
 
-legend {
+.login h3 {
+  padding: 10px 0 16px 12px;
+}
+
+.login .id, .login .pw {
+  margin-left: 18px;
+}
+
+.login .id {
+  margin-bottom: 5px;
+}
+
+.login .id label {
+  padding-right: 11px;
+}
+
+.login #logid, .login #logpw {
+  width: 95px;
+  height: 18px;
+  border: 1px solid #b4b4b4;
+  margin-left: 2px;
+}
+
+.login label img {
+  margin-top: 4px;
+}
+
+.login .btnLogin {
+  position: absolute;
+  height: 45px;
+  width: 50px;
+  top: 44px;
+  right: 19px;
+}
+
+.memberInfo {
+  margin: 9px 19px 0 19px;
+  padding-top: 8px;
+  padding-bottom: 17px;
+  border-top: 1px solid #dedede;
+}
+
+.memberInfo a {
+  padding-left: 11px;
+  color: #686868;
+  letter-spacing: -0.1em;
+  background: url(../images/main/icon_login.gif) no-repeat 1px 5px;
+}
+
+.memberInfo a:hover, .memberInfo a:focus {
+  text-decoration: underline;
+}
+
+.memberInfo a.join {
+  padding-right: 23px;
+}
+
+.banner {
+  margin:0 2px 26px;
+}
+
+.banner h3, .search h3 {
   position: absolute;
   overflow: hidden;
   width: 1px;
   height: 1px;
   font-size: 0;
   line-height: 0;
+}
+
+.banner li {
+  padding-bottom: 8px;
+}
+
+
+.standardBox {
+  margin: 2px 0 2px 2px;
+  width: 236px;
+  background: url(../images/main/bg_standardbox.gif) no-repeat 0 0;
+}
+
+.standardBox h3 {
+  padding: 15px 0 15px 15px;
+}
+
+.standardBox dl {
+  overflow: auto;
+  margin: 0 15px;
+}
+
+.standardBox .img {
+  float: left;
+  padding-bottom: 18px;
+}
+
+.standardBox .subject, .standardBox .brief {
+  float: right;
+  width: 130px;
+}
+
+.standardBox .subject {
+  padding-bottom: 4px;
+}
+
+.standardBox .subject a {
+  color: #296897;
+  font-weight: bold;
+}
+
+.standardBox .brief a {
+  line-height: 1.4;
+  color: #303030;
 }
 
 .search {
-  margin-top: 27px;
-  padding: 6px 6px 5px 6px;
-  background: url(../images/common/bg_search.gif) no-repeat 0 0;
+  height: 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background: url(../images/main/bg_search.gif) no-repeat 0 0;
+}
+
+.search fieldset {
+  margin: 0 0 0 17px;
+  padding-top: 10px;
+}
+
+.search label {
+  padding: 0 4px 6px 23px;
+  background: url(../images/common/icon_searcgh.gif) no-repeat 0 0;
+}
+
+.search label img {
+  padding-top: 4px;
 }
 
 .search #search {
-  width: 105px;
-  height: 17px;
+  width: 195px;
+  height: 18px;
   border: 1px solid #a1a1a1;
 }
 
-img {
-  vertical-align: top;
+.search .btnSearch {
+  margin-left: 5px;
 }
 
-label, select, input, textarea {
-  vertical-align: middle;
-}
-
-#subWrap {
-  float:left;
-  display:inline;/* IE6 double margin bug */
-  width: 213px;
-  height: 350px;
-  margin-left: 30px;
-  margin-right: 18px;
-  background:url(../images/common/subwrap_bg.gif) no-repeat top right;
-}
-
-#contentsWrap {
-  float:left;
+#boardBox {
   position: relative;
-  width:590px;
+  margin: 0 8px 35px 3px;
+  height: 155px;
+  background: url(../images/main/bbs_h3_bg.gif) no-repeat 0 22px;
+
 }
 
-.depth {
+#boardBox h3 {
   position: absolute;
-  top: 7px;
+  top: 0;
+  margin-bottom: -28px;
+}
+
+#boardBox h3.tab01 {
+  left: 0;
+}
+
+#boardBox h3.tab02 {
+  left: 76px;
+}
+
+#boardBox ul {
+  position: absolute;
+  width: 100%;
+  top: 21px;
+  padding-top: 14px;
+}
+
+#boardBox ul li {
+  position: relative;
+  padding: 5px 0 4px 12px;
+  background: url(../images/common/bullet_list.gif) no-repeat 2px 10px;
+}
+
+#boardBox ul li a {
+  display: block;
+  margin-right: 7em;
+}
+
+#boardBox ul li .date {
+  position: absolute;
+  display: block;
   right: 0;
-  color: #9c9b9b;
+  top: 5px;
+  color: #6f6f6f;
 }
 
-.depth .current {
-  color: #51a41e;
-}
-
-#contentsWrap h1 {
-  background: url(../images/common/bg_line_dot.gif) repeat-x bottom;
-  margin-bottom: 30px;
-}
-
-#contentsWrap h1 img {
-  padding: 3px 0 9px 1px;
-}
-
-#quick {
-  float:right;
-  width: 50px;
-}
-
-
-#quick ul {
-  padding-left: 8px;
-  background: url(../images/common/quick_bg.gif) no-repeat left bottom;
-}
-
-#quick ul li {
-
-  padding: 7px 0 13px 0;
-}
-
-#footer {
-  height: 75px;
-  margin-bottom: 15px;
-  background: url(../images/common/footerbg.gif) repeat-x 0 0;
-}
-.footerInner {
-  position: relative;
-  width: 940px;
-  margin: 0 auto;
-  padding-top: 13px;
-}
-
-.footerLogo {
+#boardBox .more a, .newsList .more a {
   position: absolute;
-  top: 60px;
-  left: 43px;
+  display: block;
+  padding: 5px 2px 4px 5px;
+  top: 1px;
+  right: 0;
 }
 
-#footer h2 {
+.newsList {
   position: relative;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  font-size: 0;
-  line-height: 0;
+  margin-left: 2px;
+  margin-right: 9px;
 }
 
-.guideMenu, address {
-  margin-left: 180px;
+.newsList h3 {
+  padding-bottom: 16px;
+  margin-bottom: 7px;
+  background: url(../images/main/bbs_h3_bg.gif) no-repeat bottom left;
 }
 
-.guideMenu {
-  width: 686px;
-  margin-bottom: 17px;
-  background: #7b8385 url(../images/common/bg_guide_menu.gif) no-repeat 100% -35px;
-  overflow: auto; /* ul 요소에 높이가 없어서 1px로 나타나 이 문제를 해결하기 위해서 overflow 속성을 추가한다. */
+.newsList .newsWrap {
+  float: right;
+  width: 234px;
 }
 
-.guideMenu li {
-  float:left;
-  padding: 6px 10px 4px 10px;
-  background: url(../images/common/footer_bar.gif) no-repeat 0 50%;
-  color: #fff;
+.newsList .imgWrap {
+  float: left;
+  width: 112px;
+  margin-left: 1px;
+}
+
+.newsList h4 {
+  padding: 1px 0 4px 11px;
+  font-weight: bold;
+  background: url(../images/common/bullet_list.gif) no-repeat 1px 7px;
+}
+
+.newsList h4 a {
+  color: #3b3939;
+}
+
+.newsList .newsWrap p {
+  margin-left: 11px;
+}
+
+.newsList .newsWrap .date {
+  padding: 0 0 7px 1px;
+  color: #6f6f6f;
+  font-size: 0.92em;
+}
+
+.newsList .newsWrap .brief {
+  line-height: 1.42;
+}
+
+.imgWrap .img {
+  display: block;
+  padding-bottom: 13px;
+  background: url(../images/main/news_imgbg.gif) no-repeat 0 bottom;
+}
+
+.imgWrap .imgTitle {
+  display: block;
+  text-align: center;
+  font-size: 0.92em;
+  color: #676565;
   font-weight: bold;
 }
 
-.guideMenu li.first-item {
-  background: none;
-
+.event {
+  position: relative;
+  background: url(../images/main/eventbox_bg.gif) no-repeat 0 0;
 }
 
-.guideMenu li.first-item {
-  background: url(../images/common/bg_guide_menu.gif) no-repeat 0 0 ;
-  padding-left: 15px;
+.event h3, .siteLink h3, .siteFavorite h3 img {
+  padding-top: 15px;
+  margin: 0 0 8px 10px;
 }
 
-#footer .guideMenu li a {
-  color: #fff;
+.event p {
+  margin-left: 9px;
 }
 
-address {
-  clear: both;
-  padding: 0 0 15px 3px;
-  font-size: 0.92em;
-  line-height: 1.5;
-  color: #787878;
-
+.event .thumbnail, .event .brief {
+  display: block;
 }
 
-address .addr {
-  padding-right: 10px;
+.event .thumbnail {
+  background: url(../images/main/img_event_bg.gif) no-repeat 0 0;
 }
 
-address .tel, address .fax, address .email {
-  padding: 0 3px;
+.event .brief {
+  margin: 13px 12px 0 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.event a:hover, a:focus {
+  color: #333333;
 }
 
 
+.event .btnGo {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+}
 
+.siteLink {
+  margin-bottom: 33px;
+  background: url(../images/main/eventbox_bg.gif) no-repeat 0 100%;
+}
+
+.siteLink fieldset {
+  margin: 0 10px;
+  padding-bottom: 13px;
+}
+
+.siteLink select {
+  width: 120px;
+  height: 21px;
+  font-size: 1em;
+}
+
+.siteFavorite {
+  position: relative;
+  height:1%; /* ie7 only 자식컨텐츠영역인식안되는문제*/
+  background: url(../images/main/eventbox_bg.gif) no-repeat 0 100%;
+}
+
+.siteFavorite h3 {
+  background: url(../images/main/eventbox_bg.gif) no-repeat 0 0;
+}
+
+
+.siteFavorite .more {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+.siteFavorite .ranking {
+  margin: 5px 15px 0px 10px;
+  padding-bottom: 18px;
+}
+
+.siteFavorite .ranking li {
+  position: relative;
+  padding: 2px 18px 1px 18px;
+  background: url(../images/main/icon_site.gif) no-repeat 0 0;
+}
+
+.siteFavorite .ranking .order {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 3px;
+}
+
+.ranking li.no1 { background-position: 0 2px; }
+.ranking li.no2 { background-position: 0 -33px; }
+.ranking li.no3 { background-position: 0 -67px; }
+.ranking li.no4 { background-position: 0 -102px; }
