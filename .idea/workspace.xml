@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/base_layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie6.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main_layout.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BoilerTest.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/base.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler.iml" afterPath="$PROJECT_DIR$/Boiler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_main.html" afterPath="$PROJECT_DIR$/layout_main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/introduce.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout_sub.html" afterPath="$PROJECT_DIR$/layout_sub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main_layout.css" afterPath="$PROJECT_DIR$/css/main_layout.css" />
     </list>
     <ignored path="wsg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,10 +13,11 @@
     <file path="/a.coffee" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376150270269" ignored="false" />
     <file path="/a.css" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376150278783" ignored="false" />
     <file path="/base.css" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376213631997" ignored="false" />
-    <file path="/layout_sub.html" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376204850785" ignored="false" />
+    <file path="/layout_sub.html" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376264353186" ignored="false" />
     <file path="/layout_main.html" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376236113184" ignored="false" />
     <file path="/main_layout.css" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376236255477" ignored="false" />
     <file path="/ie6.css" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376236187749" ignored="false" />
+    <file path="/introduce.css" changelist="9ad262ad-96cb-4b01-b7e1-00eb76366fc9" time="1376264599151" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +87,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_layout.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main_layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="373" column="37" selection-start="5544" selection-end="5544" vertical-scroll-proportion="0.40308988">
+            <state line="377" column="0" selection-start="5602" selection-end="5602" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_sub.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout_sub.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="46" selection-start="855" selection-end="855" vertical-scroll-proportion="-9.538462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="introduce.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/introduce.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="49" selection-start="514" selection-end="514" vertical-scroll-proportion="0.5969101">
               <folding />
             </state>
           </provider>
@@ -139,12 +151,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Boiler.iml" />
-        <option value="$PROJECT_DIR$/layout_sub.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/css/ie7.css" />
         <option value="$PROJECT_DIR$/layout_main.html" />
         <option value="$PROJECT_DIR$/css/ie6.css" />
         <option value="$PROJECT_DIR$/css/main_layout.css" />
+        <option value="$PROJECT_DIR$/layout_sub.html" />
+        <option value="$PROJECT_DIR$/css/introduce.css" />
       </list>
     </option>
   </component>
@@ -507,11 +520,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/main/icon_quotation.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/common/wrap_bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -535,13 +543,6 @@
     <entry file="file://$PROJECT_DIR$/css/base_layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="321" column="25" selection-start="5380" selection-end="5380" vertical-scroll-proportion="-7.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout_sub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1253" selection-end="2572" vertical-scroll-proportion="-20.26923">
           <folding />
         </state>
       </provider>
@@ -594,7 +595,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main_layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="373" column="37" selection-start="5544" selection-end="5544" vertical-scroll-proportion="0.40308988">
+        <state line="377" column="0" selection-start="5602" selection-end="5602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_sub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="855" selection-end="855" vertical-scroll-proportion="-9.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/introduce.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="49" selection-start="514" selection-end="514" vertical-scroll-proportion="0.5969101">
           <folding />
         </state>
       </provider>
