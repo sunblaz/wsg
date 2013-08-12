@@ -6,3 +6,7 @@
 .siteFavorite .ranking li {
   height: 1px;
 }
+
+.joinData .password {
+  margin-right: 70px;
+}
